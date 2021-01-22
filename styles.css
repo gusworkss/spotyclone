@@ -73,3 +73,46 @@ header {
 body {
     background-color: rgb(46, 73, 192);
 }
+
+.principal-view {
+    top: 12rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-tag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(10, 197, 10);
+}
+
+.second-tag {
+    position: relative;
+    top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(10, 197, 10);
+}
+
+.get-button {
+    position: relative;
+    top: 6rem;
+    width: 25rem;
+    height: 4.8rem;
+    border: none;
+    border-radius: 6rem;
+    color: rgb(46, 73, 192);
+    font-weight: bold;
+    font-kerning: auto;
+    background-color: rgb(10, 197, 10);
+}
+
+.get-button:hover {
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
