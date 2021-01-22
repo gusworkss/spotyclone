@@ -18,5 +18,37 @@ header {
     display: flex;
     position: absolute;
     top: .5rem;
-    left: 10rem;
+    left: 20rem;
+}
+
+.menu-container {
+    left: 50%;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 40%;
+    height: 9rem;
+    background-color: rgb(0, 0, 0);
+    justify-content: flex-end;
+
+}
+
+.first-list-menu li a, .second-list-menu li a {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-left: 3rem;
+}
+
+.first-list-menu, .second-list-menu {
+    top: 3.5rem;
+    position: relative;
+    display: flex;
+}
+
+.first-list-menu li, .second-list-menu li {
+    list-style: none;
 }
